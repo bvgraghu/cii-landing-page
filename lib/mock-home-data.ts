@@ -149,3 +149,13 @@ export const RECENT_ACTIVITY = [
   { company: "JSW Steel", type: "DEA", status: "In Progress", date: "2024-03-25", impact: "Ultra" },
   { company: "Amul Dairy", type: "Walkthrough", status: "Scheduled", date: "2024-03-24", impact: "Medium" },
 ]
+
+export const INDIA_REGIONAL_DATA: Record<string, { saved: number, audits: number, efficiency: number }> = {
+  "Gujarat": { saved: 124.5, audits: 850, efficiency: 32.5 },
+  "Maharashtra": { saved: 98.2, audits: 720, efficiency: 28.4 },
+  "Tamil Nadu": { saved: 85.6, audits: 640, efficiency: 31.0 },
+  "Karnataka": { saved: 72.4, audits: 580, efficiency: 26.8 },
+  "Uttar Pradesh": { saved: 54.8, audits: 450, efficiency: 22.5 },
+  "Rajasthan": { saved: 42.1, audits: 380, efficiency: 24.2 },
+  "Telangana": { saved: 38.5, audits: 310, efficiency: 25.4 },
+}
